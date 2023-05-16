@@ -11,6 +11,7 @@
 		871F0A012A13068100F96394 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871F0A002A13068100F96394 /* ContentView.swift */; };
 		871F0A032A13068200F96394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871F0A022A13068200F96394 /* Assets.xcassets */; };
 		871F0A062A13068200F96394 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871F0A052A13068200F96394 /* Preview Assets.xcassets */; };
+		871F0A0D2A1306D900F96394 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871F0A0C2A1306D900F96394 /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		871F0A002A13068100F96394 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		871F0A022A13068200F96394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		871F0A052A13068200F96394 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		871F0A0C2A1306D900F96394 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		871F0A0E2A130CBE00F96394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		871F09FD2A13068100F96394 /* MiniApp119-LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
+				871F0A0E2A130CBE00F96394 /* Info.plist */,
 				871F09FE2A13068100F96394 /* MiniApp119_LaunchScreenApp.swift */,
 				871F0A002A13068100F96394 /* ContentView.swift */,
+				871F0A0C2A1306D900F96394 /* LaunchScreen.swift */,
 				871F0A022A13068200F96394 /* Assets.xcassets */,
 				871F0A042A13068200F96394 /* Preview Content */,
 			);
@@ -139,6 +144,7 @@
 			files = (
 				871F0A012A13068100F96394 /* ContentView.swift in Sources */,
 				871F09FF2A13068100F96394 /* MiniApp119_LaunchScreenApp.swift in Sources */,
+				871F0A0D2A1306D900F96394 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +276,9 @@
 				DEVELOPMENT_TEAM = 558ZJSQN67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiniApp119-LaunchScreen/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +305,9 @@
 				DEVELOPMENT_TEAM = 558ZJSQN67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiniApp119-LaunchScreen/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

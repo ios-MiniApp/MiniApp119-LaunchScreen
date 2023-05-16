@@ -11,7 +11,7 @@ import SwiftUI
 struct MiniApp119_LaunchScreenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreen()
         }
     }
 }
